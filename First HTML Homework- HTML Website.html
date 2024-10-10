@@ -1,0 +1,149 @@
+<html>
+
+<head>
+    <title>Learn HTML: From Basics to Advanced</title>
+</head>
+
+<body>
+    <h1 style="color:green">Learn HTML: From Basics to Advanced</h1>
+    <h2 style="color:blue">Introduction to HTML</h2>
+    <p> HTML (HyperText Markup Language) is the standard language used to create web pages. It structures content on the
+        web, which is styled and enhanced with CSS and JavaScript. </p>
+    <h2 style="color:purple"> Basic HTML Structure </h2>
+    <p> An HTML document begins with the !DOCTYPE html declaration, which specifies that the document follows the HTML5
+        standard. This declaration is not technically an HTML tag, but it is a necessary instruction that tells the web
+        browser how to interpret the HTML code. The next element is the html tag, which acts as the root of the entire
+        HTML document. Everything on a web page is contained within this html element, and it signifies to the browser
+        that the enclosed code is an HTML document.
+
+        Within the html tag, there are two primary sections: the head section and the body section. The head element
+        contains meta-information about the document that is not directly displayed on the webpage but is used by the
+        browser and search engines. Inside the head, you typically find the title element, which defines the title of
+        the webpage that appears on the browser tab. For example, in the provided code, the title is set as "My Web
+        Page". This title is important for SEO (Search Engine Optimization) and helps users identify your page in
+        browser tabs or bookmarks.
+
+        Following the head section is the body element, which contains all the visible content of the webpage. Anything
+        between the body tags will be rendered and displayed to the user on the screen. In this example, the only
+        content inside the body is a h1 tag, which defines a top-level heading. The content between the opening and
+        closing h1 tags—"Hello World!"—is displayed as a large, bold heading on the page. HTML uses heading tags (h1>,
+        h2, and so on) to define the importance of the text, with h1 being the most important and typically used for
+        main titles.
+
+        Finally, the HTML document ends with a closing /html tag, which signifies the end of the HTML document. This
+        ensures that the browser knows the document structure is complete. </p>
+    <h2 style="color:yellow">HTML Basics</h2>
+    <p> HTML Document Structure starts with the declaration of the document type using !DOCTYPE html to indicate that
+        the document is an HTML5 document. This is followed by the html tag, which encompasses the entire HTML document.
+
+        Head Section contains meta-information about the document. The head tag includes elements like the title tag,
+        which specifies the title of the web page displayed in the browser tab, and meta tags that provide metadata such
+        as character encoding and viewport settings.
+
+        Body Section is where all the content that is visible to users is placed. This includes text, images, links, and
+        multimedia elements. The body tag wraps all content displayed on the web page.
+
+        Headings are defined using heading tags from h1 to h6. The h1 tag represents the most important heading, while
+        h6 represents the least important. Headings help structure the content and improve accessibility.
+
+        Paragraphs are created using the p tag. This tag is used to define blocks of text, providing a clear and
+        structured presentation of content.
+
+        Links are created with the a tag. The href attribute specifies the URL the link points to. Links can be used to
+        navigate to other pages or resources.
+
+        Images are embedded using the img tag, with the src attribute pointing to the image file location and the alt
+        attribute providing alternative text for accessibility.
+
+        Lists can be ordered or unordered. Unordered lists are created with the ul tag, and each list item is defined
+        with the li tag. Ordered lists use the ol tag for numbered items.
+
+        Div and Span Elements are used as generic containers for grouping content. The div tag is a block-level element,
+        while the span tag is an inline element. These tags are often used with CSS for styling.
+
+        Forms are used to collect user input and are defined with the form tag. Input elements within forms, such as
+        text fields, checkboxes, radio buttons, and submit buttons, enable user interaction and data submission.
+
+        Semantic Elements such as header, footer, nav, article, section, and aside help define the structure and meaning
+        of content. These elements improve accessibility and SEO by providing context to the content.
+
+        Comments can be added in HTML using the syntax that begins with !-- and ends with --. Comments are not displayed
+        in the browser and are used to annotate code for better understanding. </p>
+    <h2 style="color:red">Intermediate HTML</h2>
+    <p> Tables are created using the table tag, which organizes data in rows and columns. Each row is defined with the
+        tr tag. Within each row, individual data cells are marked with the td tag, while header cells are marked with
+        the th tag. Tables can include attributes like border, cellpadding, and cellspacing to control their appearance.
+
+        Forms are constructed with the form tag and allow for user input. Various input elements are used, including
+        input for text fields, checkboxes, radio buttons, and password fields. The select tag creates dropdown menus,
+        and the textarea tag allows for multi-line text input. The action attribute specifies where to send the form
+        data, while the method attribute indicates how to send it (GET or POST).
+
+        Multimedia elements include the audio and video tags. The audio tag allows you to embed audio files, with
+        attributes like controls for playback controls and autoplay to start playback automatically. The video tag
+        enables embedding video content, also supporting attributes like controls, width, and height.
+
+        Semantic HTML enhances the structure of web pages. Elements like header, nav, main, section, article, aside, and
+        footer provide meaning to the content. These elements improve accessibility and SEO by clearly defining the
+        layout and purpose of different sections of the page.
+
+        Images are embedded using the img tag, with attributes like src for the image source and alt for alternative
+        text describing the image. This ensures accessibility for screen readers.
+
+        Links are created with the a tag, where the href attribute specifies the target URL. The target attribute can
+        control how links open, with _blank opening them in a new tab.
+
+        Lists can be ordered or unordered. An unordered list is created with the ul tag, and each list item is defined
+        with the li tag. An ordered list uses the ol tag for numbered items.
+
+        Meta tags in the head section provide metadata about the HTML document, such as character encoding with meta
+        charset equals UTF-8 and viewport settings for responsive design with meta name equals viewport content equals
+        width equals device-width, initial-scale equals 1.0.
+
+        CSS styling can be applied directly within HTML using the style tag in the head, or through external stylesheets
+        linked with the link tag. This allows for customized styling of HTML elements, improving the visual presentation
+        of the web page. </p>
+    <h2 style="color:magenta">Advanced HTML</h2>
+    <p> APIs and Data Attributes allow you to enhance HTML elements with custom data. Using the data attribute, you can
+        store extra information directly in HTML tags, which can be accessed with JavaScript for dynamic functionality.
+        This is useful for interactive web applications.
+
+        HTML5 APIs provide built-in functionalities that allow for advanced features on web pages. For example, the
+        Geolocation API allows websites to access the user's location, the Web Storage API provides local storage
+        capabilities for saving user data, and the Canvas API enables drawing graphics on the fly.
+
+        Responsive Design involves using the meta tag for viewport settings and employing media queries within CSS to
+        ensure that web pages look good on various devices. By adjusting layout and styling based on screen size, you
+        can create a seamless experience across desktops, tablets, and smartphones.
+
+        Accessibility Features are crucial for making web content usable for all users, including those with
+        disabilities. Using semantic elements like header, nav, main, and footer improves screen reader support.
+        Additionally, providing alt text for images and proper labels for form elements enhances accessibility.
+
+        Microdata and Schema.org allow you to add structured data to your HTML to improve SEO and how search engines
+        interpret your content. By using specific attributes, you can define entities and relationships in your content,
+        making it more understandable for search engines.
+
+        Forms with Advanced Input Types in HTML5 include types like email, date, number, and range, which provide
+        built-in validation and user-friendly interfaces. These types enhance user experience by offering specific
+        controls and automatically validating input.
+
+        IFrames enable you to embed another HTML document within the current one. This is useful for displaying content
+        from other websites or applications without redirecting users away from your page. The iframe tag supports
+        attributes like src for the source URL and width and height for size.
+
+        Custom Elements and Web Components allow you to create reusable and encapsulated HTML elements with custom
+        behavior. Using the Custom Elements API, you can define new HTML tags and use them throughout your application,
+        promoting code reusability.
+
+        Progressive Enhancement and Graceful Degradation are strategies for building web applications that ensure core
+        functionality works for all users, regardless of their browser capabilities. By layering features, you can
+        provide a basic experience that improves with advanced browser support.
+
+        Template and Slot Elements in HTML5 provide a way to create reusable chunks of markup that can be instantiated
+        in different contexts. The template tag holds client-side content that will not be rendered until it is
+        explicitly instantiated with JavaScript. The slot tag is used within web components to define placeholders for
+        distributed content. </p>
+</body>
+
+</html>
